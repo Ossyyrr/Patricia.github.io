@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #000000 } 
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp0" d="M448 320C412.61 320 384 291.39 384 256C384 220.61 412.61 192 448 192C483.39 192 512 220.61 512 256C512 291.39 483.39 320 448 320Z" />
+				<path id="Layer" class="shp0" d="M448 512C412.61 512 384 483.39 384 448C384 412.61 412.61 384 448 384C483.39 384 512 412.61 512 448C512 483.39 483.39 512 448 512Z" />
+				<path id="Layer" class="shp0" d="M448 128C412.61 128 384 99.39 384 64C384 28.61 412.61 0 448 0C483.39 0 512 28.61 512 64C512 99.39 483.39 128 448 128Z" />
+			</g>
+		</g>
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+</svg>

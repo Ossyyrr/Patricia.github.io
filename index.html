@@ -1,0 +1,171 @@
+<!-- https://www.csswinner.com/category/Portfolio/4 
+https://freelance-webdesign.co.uk/
+https://pritirathod.com/
+https://minlovecat.sg/
+https://www.minilab.it/
+https://jurajmolnar.com/
+https://ultraviolette.elated-themes.com/landing
+
+
+-->
+
+<!DOCTYPE html>
+<html>	
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="shortcut icon" href="images/favicon.png"/> 
+	<script src="js/jquery 3.4.1.js"></script>
+	<script src="js/js.js"></script>
+	 <title> Ossyyrr </title>
+	 <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Playfair+Display&display=swap" rel="stylesheet">
+	 
+<!-- ************************************************************************************************************************************************ -->
+<style>
+
+</style>
+<!-- ************************************************************************************************************************************************ -->
+
+</head>
+
+
+<body onmouseout="cerrarTodo()">
+<main onclick="transiciones()" >
+
+	<header>
+		
+
+		<nav > 
+			<div class="fotoInicio">
+				<img id="fotoInicio" src="images/perfil.jpg" onclick="changeSection(0)" alt="Imagen aleatoria">
+			</div>
+			
+			
+
+			<nav class="dropdown">
+				<ul onclick="dropdown()">
+					<img class="menu" src="images/menu2.svg"  alt="">
+					<img class="menu" src="images/menu.svg"  alt="">
+						<li onclick="changeSection(1)">ART 1</li>
+						<li onclick="changeSection(2)">ART 2</li>
+						<li onclick="changeSection(3)">ART 3</li>
+						<li onclick="changeSection(4)">ART 4</li>
+				</ul>
+			</nav> 
+
+		</nav>
+		
+	
+	</header>
+		
+
+		<article class="index">
+			<section>
+					<h1 class="fadeInUp">TEXTO DE LA PRESENTACION PORQUE BLABLA Y ME ENCANTA JUSTIFICAR EL TEXTO Y CENTRARLO:)</h1>
+
+			</section>
+			<section>
+				<div class="botonIndex"></div>
+				<div class="botonIndex"></div>
+		
+				<div class="botonIndex"></div>
+				<div class="botonIndex"></div>
+			</section>
+
+	
+		</article>
+
+		<article> 
+		<h1>Sección 1</h1>
+		<img src="https://picsum.photos/700/400?random2" alt="Imagen aleatoria">
+		<div class="central"></div>
+		</article>
+
+		<article> 
+		<h1>Sección 2</h1>
+		<img src="https://picsum.photos/700/400?random4" alt="Imagen aleatoria">
+		<div class="central"></div>
+		</article>
+	
+		<article> 
+		<h1>Sección 3</h1>
+		<img src="https://picsum.photos/700/400?random5" alt="Imagen aleatoria">
+		<div class="central"></div>
+		</article>
+		
+		<article> 
+		<h1>Sección 4</h1>
+		<img src="https://picsum.photos/700/400?random6" alt="Imagen aleatoria">
+		<div class="central"></div>
+		</article>
+
+		
+	<footer >
+	<h2 onclick="abrirFormulario()" class="contacto">CONTACTO</h2>
+	<h4 class="miNombre">Patricia Manzanero Jiménez</h4>
+
+	<section>  
+        <form method="post" action="miservidor.php"><fieldset>
+          <legend>Contacto</legend>
+           
+			
+			<label for="nom">Nombre</label>
+			<input id="nom" type="text" placeholder="Escriba aquí su nombre">
+		
+			<label for="mail">Email</label>
+			<input id="mail" type="email" placeholder="Escriba aquí su email">
+  
+			<label for="tel">Teléfono</label>
+			<input id="tel" type="tel" placeholder="Escriba aquí su teléfono">
+	   
+			<label>Motivo de contacto</label>
+			<div class="motivoDeContacto">
+			<input id="moti" type="radio" name="motivo" onfocus="paraTrabajo()"><label for="moti">Trabajo</label>
+			</div>
+			<div class="motivoDeContacto">
+			<input id="moti2" type="radio" name="motivo" onfocus="paraOtros()"><label for="moti2">Otros</label>
+			</div>
+
+
+			<div class="motiv">
+			<label for="otroMotivo">Motivo</label>
+			<textarea id="otroMotivo" cols="30" rows="10"></textarea>
+			</div>
+
+			<div class="motiv">
+			<label for="ubi">Ubicación</label>
+			<input id="ubi" type="text" placeholder="Escriba aquí la dirección">
+		
+			<label for="cont">Tipo de contrato</label>
+			<input id="cont" type="text" placeholder="Contrato">
+		
+			<label for="dura">Duración</label>
+			<input id="dura" type="text" placeholder="Duración del contrato">
+
+			<label for="tec">Tecnologías</label>
+			<input id="tec" type="text" placeholder="Tecnologías a utilizar">
+
+			<label for="moda">Modalidad</label>
+			<input id="moda" type="text" placeholder="modalidad">
+
+			<label for="rango">Rango Salarial</label>
+			<input id="rango" type="number"> - <input id="rango2" type="number">
+			</div>
+              
+			<input type="image" src="images/send.svg" value="Enviar" height="100px">
+		</fieldset>
+        </form>
+    </section>
+
+	</footer>
+
+<!-- ************************************************************************************************************************************************ -->
+<script>
+
+</script>
+<!-- ************************************************************************************************************************************************ -->
+
+</main>
+</body>	    
+</html>
